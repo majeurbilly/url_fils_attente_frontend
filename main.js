@@ -1,7 +1,7 @@
 const affichage = document.getElementById("affichage");
 const inputUser = document.getElementById("inputUser");
 const submitButton = document.querySelector("button");
-const url = "http://10.100.1.36:3000/api/list";
+const url = "https://10.100.1.36:3000/api/list";
 
 // Bouton de soumission
 submitButton.onclick = handleSubmit;
